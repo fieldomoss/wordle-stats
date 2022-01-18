@@ -97,10 +97,10 @@ for i in guess:
 opt.sort(reverse=True)
 
 print("\nsome best possible words")
-for i in range(20):
+for i in range(25):
     print(opt[i][1]+" "+str(int(opt[i][0])))
     
 opt.reverse()
 print("\nsome worst possible words")
-for i in range(20):
+for i in range(25):
     print(opt[i][1]+" "+str(int(opt[i][0])))
